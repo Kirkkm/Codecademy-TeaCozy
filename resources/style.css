@@ -45,6 +45,33 @@ header li {
     width: 1200px;
 }
 
-.ourmission h2, h4 {
-    margin: 5px;
+h2, h4 {
+    margin: 10px;
+}
+
+.teaofthemonth{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1000px;
+}
+
+.teaofthemonth img{
+    height: 200px;
+    width: 300px;
+}
+
+.teaofthemonth .pics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pics p {
+    text-align: center;
+    margin-top: 10px;
 }
