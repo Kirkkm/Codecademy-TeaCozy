@@ -1,6 +1,6 @@
 * {
     font-family: Helvetica;
-    font-size: 22px;
+    
     color: seashell;
     background-color: black;
     opacity: 0.9;
@@ -28,4 +28,23 @@ header img{
 
 header li {
     margin: auto 5px;
+}
+
+.ourmission {
+    display: flex;
+    background-image: url("/resources/images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+}
+
+.ourmission .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 1200px;
+}
+
+.ourmission h2, h4 {
+    margin: 5px;
 }
