@@ -1,0 +1,31 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+header ul{
+    display: flex;
+    margin: 0 10px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+header img{
+    height: 50px;
+    margin: auto 10px;
+}
+
+header li {
+    margin: auto 5px;
+}
