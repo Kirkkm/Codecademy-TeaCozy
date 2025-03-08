@@ -110,3 +110,17 @@ h2, h4 {
 .locations-containers p {
     text-align: center;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+    margin: 0 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
